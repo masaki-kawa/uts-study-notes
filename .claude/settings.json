@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "agent",
+            "if": "Write(notes/obsidian/*.md)",
+            "prompt": "ノートが生成されました。以下の手順でレビューしてください。\n\n1. stdin JSON から書き込まれたファイルパスを取得する: `jq -r '.tool_input.file_path'`\n2. そのファイルを読む\n3. `/Users/masakikawakami/Projects/Claude/uts-study-notes/prompts/SKILL.md` の「出力品質チェックリスト」セクションに基づいて、以下の観点を確認する:\n   - 構造（ファイル名の命名規則・目次・必須セクション6つ）\n   - 内容（スライド順・引用ブロック・LectureとLabの橋渡し・コードブロックのコメント）\n   - 言語（英語併記・推測補完なし・重要用語まとめ表）\n   - 復習セクション（チェックボックス・混同しやすいポイント表・理解チェック問題3問以上）\n   - Obsidian形式（タグ・内部リンク）\n4. 各カテゴリごとにOK/NG/要確認を明示し、NGまたは要確認の項目は具体的な改善点を日本語で説明する\n\n入力: $ARGUMENTS",
+            "statusMessage": "品質チェック中...",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}
