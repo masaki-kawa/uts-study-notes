@@ -28,5 +28,5 @@ env/
 .env
 *.env.local
 
-# 大容量ファイル（必要に応じて解除）
-# data/raw/
+# 大容量ファイル・著作権保護スライド
+data/raw/slides/

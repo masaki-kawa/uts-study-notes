@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "480304a296a28369",
+    "type": "split",
+    "children": [
+      {
+        "id": "bfb2a2eb21a90f56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88743a3bd5098ed0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/obsidian/Lecture4_Lab4_Data_Augmentation_Transfer_Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture4_Lab4_Data_Augmentation_Transfer_Learning"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f647119f8da64b19",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f3ceb20d04ef6ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d092fa78e8172e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "63507a889e39f0ae",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9dd9874cbc6000cf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 427.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "5dcbb31a21909802",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7c140174d80b3ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "973ca116f6add2be",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "81b733af060e1b8a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "e4b806b47d3392f2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f707fc0685c23809",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a0d099ab63eb1a5a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "floating": {
+    "id": "a5ffed70c0d4dfab",
+    "type": "floating",
+    "children": [
+      {
+        "id": "269524752b35cc68",
+        "type": "window",
+        "children": [
+          {
+            "id": "afd656b15845e950",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4bb4d45d9cd9c3d0",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "data/raw/slides/Deep Learning - Lecture 3.pptx.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Deep Learning - Lecture 3.pptx"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 620,
+        "y": 41,
+        "width": 1090,
+        "height": 1066,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "4bb4d45d9cd9c3d0",
+  "lastOpenFiles": [
+    "notes/obsidian/Lecture4_Lab4_Data_Augmentation_Transfer_Learning.md",
+    "notes/obsidian/Lab3_CNN_Image_Classification.md",
+    "data/raw/slides/Deep Learning - Lecture 3.pptx.pdf",
+    "prompts/SKILL.md",
+    "README.md",
+    "notes/obsidian/Lecture5_Lab5_RNN_Sequence_Models.md",
+    "data/raw/colab/Deep_Learning_Lab5_Exercise2_Solutions.ipynb",
+    "data/raw/colab/Deep_Learning_Lab5_Exercise1_Solutions.ipynb",
+    "data/raw/slides/Deep Learning - Lecture 5.pptx.pdf",
+    "data/raw/colab/Deep_Learning_Lab4_Exercise3_Solutions.ipynb",
+    "data/raw/colab/Deep_Learning_Lab4_Exercise2_Solutions.ipynb",
+    "data/raw/colab/Deep_Learning_Lab4_Exercise1_Solutions.ipynb",
+    "data/raw/slides/Deep Learning - Lecture 4.pptx.pdf"
+  ]
+}
